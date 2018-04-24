@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Find int in Pi</title>
+  <style type="text/css">
+    table, th, td {
+      border: 1px solid black;
+      border-collapse: collapse;
+    }
+    th, td {
+      padding: 5px;
+    }
+  </style>
+</head>
+<body>
+<h1>Finding integers in Pi</h1>
+<div id="result" style="display: none;">
+  <div id="digitTracker">
+    Number of Pi digits required until finding <span id="currentInt"></span>: <span id="maxDigit"></span>
+  </div>
+  <br>
+  <table>
+    <tr id="progress">
+      <th>Integer</th>
+      <th>Starting position in Pi</th>
+      <th>Ending position in Pi</th>
+    </tr>
+  </table>
+</div>
+<button id="start">Start</button>
+<script type="module" src="app.js"></script>
+</body>
+</html>
