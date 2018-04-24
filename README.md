@@ -1,4 +1,4 @@
-# Find int in pi
+# Find integers in Pi
 
 A simple and fun web app to find integers inside Pi
 
